@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Osinergmin</title>
+	<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<!-- Internet Explorer HTML5 enabling code: -->
+         <!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+         <style type="text/css">
+        .clear { zoom: 1;display: block; }
+        </style>
+        <![endif]-->
+	
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js">
+	</script><script type="text/javascript" src="../scripts/jquery/jquery.nestedAccordion.js"></script>
+	
+	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+		$("html").addClass("js");
+		$.fn.accordion.defaults.container = false; 
+		$(function() {
+		  $("#acc3").accordion({initShow : "#current"});
+		  $("#acc1").accordion({
+			  el: ".h", 
+			  head: "h4, h5", 
+			  next: "div", 
+			  initShow : "div.outer:eq(1)"
+		  });
+		  $("#acc2").accordion({
+			  obj: "div", 
+			  wrapper: "div", 
+			  el: ".h", 
+			  head: "h4, h5", 
+			  next: "div", 
+			  showMethod: "slideFadeDown",
+			  hideMethod: "slideFadeUp",
+			  initShow : "div.shown"
+			});
+		  $("html").removeClass("js");
+		});
+		//--><!]]>
+		</script>	
+	
+</head>
+
+<body>
+
+	<div class="container">	
+		<!--Inicia main-content -->
+		<div class="main-content" id="main-content">
+			<div class="canvas-sede">
+				<button type="button" class="back">Atrás</button>
+				<H2>Procedimiento de Atención al cliente - Oficina Regional Cusco</h2>
+				<ul id="acc3">
+					<!--li 1-->
+								<li><span></span><a href="#">Instructivo  de Orientación al cliente en Oficinas de Lima<img src="images/pixel.gif"></a>
+									<ul class="group">
+										  <li><div class="img-lyst-group2"></div><a href="../../uploads WebISO/SIG-GART/3. Procedimientos especificos/Division de Generacion y Transmision/proceso fijacion de tarifas en barras/GART-DGT-PE-01/F1-GART-DGT-PE-01.pdf" target="_blank">F1 xxx</a></li>
+										  <li><div class="img-lyst-group2"></div><a href="../../uploads WebISO/SIG-GART/3. Procedimientos especificos/Division de Generacion y Transmision/proceso fijacion de tarifas en barras/GART-DGT-PE-01/F2-GART-DGT-PE-01.pdf" target="_blank" >F2 xxx</a></li>
+										  <li><div class="img-lyst-group2"></div><a href="../../uploads WebISO/SIG-GART/3. Procedimientos especificos/Division de Generacion y Transmision/proceso fijacion de tarifas en barras/GART-DGT-PE-01/F3-GART-DGT-PE-01.pdf" target="_blank"   >F3 xxx</a></li>
+										  <li><div class="img-lyst-group2"></div><a href="../../uploads WebISO/SIG-GART/3. Procedimientos especificos/Division de Generacion y Transmision/proceso fijacion de tarifas en barras/GART-DGT-PE-01/F4-GART-DGT-PE-01.pdf" target="_blank"   >F4 xxx</a></li>
+									</ul>
+								</li>
+								
+								<li ><span></span><a href="#">Instructivo  de Tramitacion al cliente en Oficinas Regionales<img src="images/pixel.gif"></a>
+										
+									<ul class="group">
+										  <li><div class="img-lyst-group2"></div><a href="../../uploads WebISO/SIG-GART/3. Procedimientos especificos/Division de Generacion y Transmision/proceso fijacion de tarifas en barras/GART-DGT-PE-01/F1-GART-DGT-PE-01.pdf" target="_blank">F5 xxx</a></li>
+										  <li><div class="img-lyst-group2"></div><a href="../../uploads WebISO/SIG-GART/3. Procedimientos especificos/Division de Generacion y Transmision/proceso fijacion de tarifas en barras/GART-DGT-PE-01/F2-GART-DGT-PE-01.pdf" target="_blank"   >F6 xxx</a></li>
+									</ul>
+												
+									</li>
+									
+							
+						
+				
+				</ul><!--Close ul acc3-->		
+			
+			</div>				
+		</div> <!--Fin main-content -->
+		<div class="clear"></div>
+	</div> <!--Fin Container -->
+</body>
+</html>
