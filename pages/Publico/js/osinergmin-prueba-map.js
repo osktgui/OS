@@ -113,7 +113,7 @@ jQuery(document).ready(function(query) {
 								url = url.replace(/^.*#/, '');
 								query.history.load(url);
 					}
-					else{
+					else if(href != "#"){
 						window.open(href);
 					}
 					});

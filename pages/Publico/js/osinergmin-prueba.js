@@ -97,7 +97,7 @@ jQuery(document).ready(function(query) {
 
 								query.history.load(url);
 					}
-					else{
+					else if(href != "#"){
 						window.open(href);
 					}
 					});
