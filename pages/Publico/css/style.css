@@ -262,7 +262,7 @@ background: #018fd7;
 	/*----- navi-piso*/
 	.navi-piso{width: 100%; height:35px; margin:35px 0 20px 0;}
 	.navi-piso ul li{float: left;}
-	.navi-piso ul li a{display: block;padding: 1px 0px;font-size: 11px;}
+	.navi-piso ul li a{display: block;padding: 1px 0px;font-size: 11px;text-align: center;}
 
 	.navi-piso ul li a.active{background: #78ae37; color: #fff; border: 1px #528219 solid;
 	 /* Safari 4+ y Chrome 1+ */  
