@@ -24,6 +24,7 @@ jQuery(document).ready(function(query) {
 			$(".main-content-dinamico").load( ruta+" .main-content",function()
 			{
 				$("#acc3").accordion({initShow : "#current"});
+				$("#accc3").accordion({initShow : "#current"});
 				if(ruta=="sedes-lima.html"){
 					$(".dinamicoSL").html("");
 								$(".content-sede a").each(function(){
@@ -144,6 +145,7 @@ jQuery(document).ready(function(query) {
 		function loadTabs(){
 	
 			$("#acc3").accordion({initShow : "#current"});
+			$("#accc3").accordion({initShow : "#current"});
 			$(".tab_content").hide();
 		$("ul.tabs li:first").addClass("active_tab").show();
 		$(".tab_content:first").show();

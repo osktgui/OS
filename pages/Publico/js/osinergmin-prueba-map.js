@@ -28,6 +28,7 @@ jQuery(document).ready(function(query) {
 			{	//$(".tooltip").each(function(){$(this).attr('style',' ')});
 				$("div.tooltip").remove();
 				$("#acc3").accordion({initShow : "#current"});
+				$("#accc3").accordion({initShow : "#current"});
 				
 				if(ruta=="map.html"){
 					$(".dinamicoSR").html("");
@@ -160,6 +161,7 @@ jQuery(document).ready(function(query) {
 		function loadTabs(){
 	
 			$("#acc3").accordion({initShow : "#current"});
+			$("#accc3").accordion({initShow : "#current"});
 			$(".tab_content").hide();
 		$("ul.tabs li:first").addClass("active_tab").show();
 		$(".tab_content:first").show();
