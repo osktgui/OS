@@ -543,8 +543,8 @@ html ul.tabs li.active_tab a{color: #fff;}
 	}
 		.slider div ul li{
 			display:inline;
-			padding:3px 12px;
-			width:74px;
+			padding: 3px 2px;
+			width:94px;
 			margin:0;
 			background: #eee url(../images/tab-img.jpg) no-repeat -98px 0;
 			margin: 0 1px;
